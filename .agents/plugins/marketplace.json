@@ -8,7 +8,7 @@
       "name": "roadway-integrator",
       "source": {
         "source": "local",
-        "path": "./roadway-integrator"
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE",

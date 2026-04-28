@@ -30,6 +30,8 @@
     "websiteURL": "https://roadwayai.com",
     "privacyPolicyURL": "https://www.roadwayai.com/privacy-policy",
     "termsOfServiceURL": "https://www.roadwayai.com/website-terms-of-service",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
     "defaultPrompt": [
       "Set up Roadway attribution in this codebase.",
       "Detect my CRM and wire up the required fields.",
