@@ -1,0 +1,17 @@
+{
+  "name": "roadway-integrator",
+  "version": "0.1.0",
+  "description": "Onboard a codebase to Roadway's attribution pipeline. Detects the customer's CRM, analytics, auth, and billing stack, then dispatches focused sub-skills that install the Roadway tag, create CRM fields, instrument signup, and populate Stripe metadata.",
+  "author": {
+    "name": "Roadway"
+  },
+  "homepage": "https://docs.roadwayai.com",
+  "license": "MIT",
+  "keywords": [
+    "roadway",
+    "attribution",
+    "analytics",
+    "crm",
+    "onboarding"
+  ]
+}

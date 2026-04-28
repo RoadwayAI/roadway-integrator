@@ -1,0 +1,20 @@
+{
+  "name": "roadway-local",
+  "interface": {
+    "displayName": "Roadway Plugins"
+  },
+  "plugins": [
+    {
+      "name": "roadway-integrator",
+      "source": {
+        "source": "local",
+        "path": "./roadway-integrator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Analytics"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "roadway-integrator",
+  "version": "0.1.0",
+  "description": "Wire up a customer codebase to send Roadway the IDs and CRM fields required for website-side marketing attribution.",
+  "author": {
+    "name": "Roadway",
+    "url": "https://roadwayai.com"
+  },
+  "homepage": "https://docs.roadwayai.com",
+  "repository": "https://github.com/RoadwayAI/roadway-integrator",
+  "license": "MIT",
+  "keywords": [
+    "roadway",
+    "attribution",
+    "analytics",
+    "crm",
+    "onboarding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Roadway Integrator",
+    "shortDescription": "Set up Roadway attribution in your codebase.",
+    "longDescription": "Detects the CRM, analytics, auth, and billing stack in the current repo, then installs the Roadway tag, creates CRM properties/fields, instruments signup, and populates Stripe metadata. If the stack isn't compatible with this plugin, customers are directed to their Roadway rep.",
+    "developerName": "Roadway",
+    "category": "Analytics",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://roadwayai.com",
+    "privacyPolicyURL": "https://www.roadwayai.com/privacy-policy",
+    "termsOfServiceURL": "https://www.roadwayai.com/website-terms-of-service",
+    "defaultPrompt": [
+      "Set up Roadway attribution in this codebase.",
+      "Detect my CRM and wire up the required fields.",
+      "Install the Roadway tag and instrument signup."
+    ]
+  }
+}

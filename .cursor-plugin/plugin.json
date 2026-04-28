@@ -1,0 +1,22 @@
+{
+  "name": "roadway-integrator",
+  "version": "0.1.0",
+  "description": "Wire up a customer codebase to send Roadway the IDs and CRM fields required for website-side marketing attribution.",
+  "author": {
+    "name": "Roadway",
+    "url": "https://roadwayai.com"
+  },
+  "homepage": "https://docs.roadwayai.com",
+  "repository": "https://github.com/RoadwayAI/roadway-integrator",
+  "license": "MIT",
+  "keywords": [
+    "roadway",
+    "attribution",
+    "analytics",
+    "crm",
+    "onboarding"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "./skills/",
+  "rules": "./rules/"
+}
