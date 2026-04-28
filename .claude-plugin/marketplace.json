@@ -1,0 +1,14 @@
+{
+  "name": "roadway",
+  "owner": {
+    "name": "Roadway",
+    "url": "https://roadwayai.com"
+  },
+  "plugins": [
+    {
+      "name": "roadway-integrator",
+      "source": ".",
+      "description": "Onboard a codebase to Roadway's attribution pipeline."
+    }
+  ]
+}
