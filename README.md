@@ -40,6 +40,17 @@ roadway-integrator/
 └── references/            # shared docs the skills read on demand
 ```
 
+### Claude Code
+
+Install as a [Claude Code plugin](https://docs.claude.com/en/docs/claude-code/plugins) via the `roadway` marketplace:
+
+```
+/plugin marketplace add RoadwayAI/roadway-integrator
+/plugin install roadway-integrator@roadway
+```
+
+The bundle is defined by `.claude-plugin/plugin.json` (skills under `skills/`); `.claude-plugin/marketplace.json` registers the marketplace entry. Once installed, mention Roadway onboarding in any session and Claude will invoke the `roadway-integrator` router skill.
+
 ### Cursor
 
 Install as a [Cursor plugin](https://cursor.com/docs/plugins): the bundle is defined by `.cursor-plugin/plugin.json` (skills under `skills/`, always-on router under `rules/roadway-integrator.mdc`). Replace `assets/logo.svg` with your final artwork before publishing; the manifest references it as `logo`.
