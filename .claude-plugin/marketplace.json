@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "roadway-integrator",
-      "source": ".",
+      "source": "./",
       "description": "Onboard a codebase to Roadway's attribution pipeline."
     }
   ]
