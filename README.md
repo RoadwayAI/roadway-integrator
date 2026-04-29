@@ -53,7 +53,24 @@ The bundle is defined by `.claude-plugin/plugin.json` (skills under `skills/`); 
 
 ### Cursor
 
-Install as a [Cursor plugin](https://cursor.com/docs/plugins): the bundle is defined by `.cursor-plugin/plugin.json` (skills under `skills/`, always-on router under `rules/roadway-integrator.mdc`). Replace `assets/logo.svg` with your final artwork before publishing; the manifest references it as `logo`.
+This repo ships a [Cursor plugin](https://cursor.com/docs/plugins) manifest at `.cursor-plugin/plugin.json`. It loads skills from `skills/` and rules from `rules/` (including `roadway-integrator.mdc`, which mirrors the router in `AGENTS.md`).
+
+#### Install from the marketplace (Coming soon)
+
+We're working on publishing it on Cursor's marketplace, for now install it locally (see bellow).
+
+#### Install locally (clone or develop against this repo)
+
+1. Clone this repository.
+2. Symlink the plugin root into Cursor’s local plugins directory:
+
+   ```bash
+   ln -s /absolute/path/to/roadway-integrator ~/.cursor/plugins/local/roadway-integrator
+   ```
+
+3. Restart Cursor, or run **Developer: Reload Window** from the Command Palette.
+
+4. Confirm the plugin loaded: Cursor Settings → Rules should list the `roadway-integrator` rule; skills appear under Agent skills / manual invocation. In agent chat you can run `/roadway-integrator` (and related skill names).
 
 ## Further reading
 
